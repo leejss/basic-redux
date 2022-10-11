@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "redux tutorial",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:redux-todo": "pnpm --filter redux-todo dev",
+    "dev:redux-async": "pnpm --filter redux-async dev"
   },
   "keywords": [],
   "author": "leejss",
